@@ -66,6 +66,8 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
+    cable_ready (4.4.3)
+      rails (>= 5.2)
     capybara (3.34.0)
       addressable
       mini_mime (>= 0.1.3)
@@ -160,6 +162,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redis (4.2.5)
     regexp_parser (1.8.2)
     rexml (3.2.4)
     rubocop (1.5.2)
@@ -205,6 +208,12 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    stimulus_reflex (3.4.0.pre8)
+      cable_ready (>= 4.4)
+      nokogiri
+      rack
+      rails (>= 5.2)
+      redis
     temple (0.8.2)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -262,6 +271,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
+  stimulus_reflex (~> 3.4.0.pre8)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)

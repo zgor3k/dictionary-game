@@ -11,6 +11,7 @@
     "postcss-flexbugs-fixes": "4",
     "postcss-preset-env": "^6.7.0",
     "stimulus": "^2.0.0",
+    "stimulus_reflex": "3.4.0-pre8",
     "tailwindcss": "^2.0.1-compat",
     "turbolinks": "^5.2.0"
   },
