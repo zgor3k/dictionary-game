@@ -1,8 +1,11 @@
 .mx-24.mt-12.text-white
   .bg-gray-800.p-6.border-gray-600.border-2.rounded-md
-    .text-center.text-3xl.font-bold foo
+    - word = random_word
+    .text-center.text-3xl.font-bold = word[:word_to_translate]
     .mt-12.w-1/3.mx-auto
       input class="bg-gray-600 focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+      input type='hidden' name='word_id' value=word[:word_id]
+      input type='hidden' name='strategy' value=word[:strategy]
     .mt-12.w-1/3.mx-auto.grid.justify-items-center
       button.bg-blue-800.p-4.px-8.rounded-md type="button" Submit
 
@@ -19,27 +22,15 @@
         .w-1/3.text-center
           p Count
     .mt-4
-      - 5.times do
+      - @results.each do |result|
         .mt-2
-          .bg-green-900.bg-opacity-60.rounded-md.flex.py-1
+          .rounded-md.flex.py-1 class=result_row_classes(result)
             .w-1/2.text-center
-              p foo
+              p = result.word.word
             .w-1/2.flex
               .w-1/3.text-center
-                p 3
+                p = result.positives
               .w-1/3.text-center
-                p 2
+                p = result.negatives
               .w-1/3.text-center
-                p 5
-      - 5.times do
-        .mt-2
-          .bg-red-900.bg-opacity-30.rounded-md.flex.py-1
-            .w-1/2.text-center
-              p foo
-            .w-1/2.flex
-              .w-1/3.text-center
-                p 3
-              .w-1/3.text-center
-                p 2
-              .w-1/3.text-center
-                p 5
+                p = result.count
