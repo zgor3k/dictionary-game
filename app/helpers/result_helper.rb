@@ -12,6 +12,17 @@ module ResultHelper
     }
   end
 
+  def action_result(result)
+    return if result.blank?
+
+    if result[:result]
+      tag.p 'Good! ;-)', class: 'text-green-900'
+    else
+      content = ";-( tip: <br> #{result[:word].word} = #{result[:word].translated_word}"
+      tag.p content.html_safe, class: 'text-red-900 text-center' # rubocop:disable Rails/OutputSafety
+    end
+  end
+
   private
 
   def translate_strategy

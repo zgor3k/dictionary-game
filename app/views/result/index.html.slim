@@ -12,6 +12,8 @@
         .flex.space-x-2
           button.bg-blue-800.p-4.px-20.rounded-md type='button' data-action='click->result#triggerResult' Submit
           button.bg-red-800.p-4.px-8.rounded-md type='button' data-action='click->result#next' Next
+        .pt-3
+          = action_result(@result_from_reflex)
 
 #results
   .mx-24.mt-12.text-white
