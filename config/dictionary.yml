@@ -1,406 +1,460 @@
 dictionary:
   1:
-    word: 'divided'
-    translated_word: 'podzielony'
+    word: 'podzielony'
+    translated_word: 'divided'
   2:
-    word: 'sane'
-    translated_word: 'rozsądny'
+    word: 'rozsądny'
+    translated_word: 'sane'
   3:
-    word: 'catch up'
-    translated_word: 'dogonić'
+    word: 'dogonić'
+    translated_word: 'catch up'
   4:
-    word: 'reasonable'
-    translated_word: 'rozsądny'
+    word: 'rozsądny'
+    translated_word: 'reasonable'
   5:
-    word: 'habit'
-    translated_word: 'nawyk'
+    word: 'nawyk'
+    translated_word: 'habit'
   6:
-    word: 'urgently'
-    translated_word: 'pilnie'
+    word: 'pilnie'
+    translated_word: 'urgently'
   7:
-    word: 'take care'
-    translated_word: 'dbać'
+    word: 'dbać'
+    translated_word: 'take care'
   8:
-    word: 'tightly'
-    translated_word: 'ciasno'
+    word: 'ciasno'
+    translated_word: 'tightly'
   9:
-    word: 'association'
-    translated_word: 'stowarzyszenie'
+    word: 'stowarzyszenie'
+    translated_word: 'association'
   10:
-    word: 'tend to complain'
-    translated_word: 'mają tendencję do narzekania'
+    word: 'tendencja do narzekania'
+    translated_word: 'tend to complain'
   11:
-    word: 'insights'
-    translated_word: 'spostrzeżenia'
+    word: 'spostrzeżenia'
+    translated_word: 'insights'
   12:
-    word: 'not sticking'
-    translated_word: 'nie skleja się'
+    word: 'nie skleja się'
+    translated_word: 'not sticking'
   13:
-    word: 'preconceived'
-    translated_word: 'tendencyjny'
+    word: 'tendencyjny'
+    translated_word: 'preconceived'
   14:
-    word: 'honest'
-    translated_word: 'szczery'
+    word: 'szczery'
+    translated_word: 'honest'
   15:
-    word: 'confidentiality'
-    translated_word: 'poufność'
+    word: 'poufność'
+    translated_word: 'confidentiality'
   16:
-    word: 'behind'
-    translated_word: 'za'
+    word: 'za'
+    translated_word: 'behind'
   17:
-    word: 'calm'
-    translated_word: 'spokojna'
+    word: 'spokojna'
+    translated_word: 'calm'
   18:
-    word: 'suddenly'
-    translated_word: 'nagle'
+    word: 'nagle'
+    translated_word: 'suddenly'
   19:
-    word: 'explain'
-    translated_word: 'wyjaśnić'
+    word: 'wyjaśnić'
+    translated_word: 'explain'
   20:
-    word: 'tend'
-    translated_word: 'zmierzać'
+    word: 'zmierzać'
+    translated_word: 'tend'
   21:
-    word: 'efficiently'
-    translated_word: 'wydajnie'
+    word: 'wydajnie'
+    translated_word: 'efficiently'
   22:
-    word: 'lately'
-    translated_word: 'ostatnio'
+    word: 'ostatnio'
+    translated_word: 'lately'
   23:
-    word: 'almost'
-    translated_word: 'prawie'
+    word: 'prawie'
+    translated_word: 'almost'
   24:
-    word: 'providing'
-    translated_word: 'dostarczanie'
+    word: 'dostarczanie'
+    translated_word: 'providing'
   25:
-    word: 'takeaways'
-    translated_word: 'dania na wynos'
+    word: 'dania na wynos'
+    translated_word: 'takeaways'
   26:
-    word: 'assume'
-    translated_word: 'założyć'
+    word: 'założyć'
+    translated_word: 'assume'
   27:
-    word: 'explicit'
-    translated_word: 'wyraźny'
+    word: 'wyraźny'
+    translated_word: 'explicit'
   28:
-    word: 'effort'
-    translated_word: 'wysiłek'
+    word: 'wysiłek'
+    translated_word: 'effort'
   29:
-    word: 'middleware'
-    translated_word: 'oprogramowanie pośredniczące'
+    word: 'oprogramowanie pośredniczące'
+    translated_word: 'middleware'
   30:
-    word: 'often'
-    translated_word: 'często'
+    word: 'często'
+    translated_word: 'often'
   31:
-    word: 'alive'
-    translated_word: 'żywy'
+    word: 'żywy'
+    translated_word: 'alive'
   32:
-    word: 'chained'
-    translated_word: 'przykuty'
+    word: 'przykuty'
+    translated_word: 'chained'
   33:
-    word: 'invoke'
-    translated_word: 'odwołać się'
+    word: 'odwołać się'
+    translated_word: 'invoke'
   34:
-    word: 'agreement'
-    translated_word: 'umowa'
+    word: 'umowa'
+    translated_word: 'agreement'
   35:
-    word: 'objectives'
-    translated_word: 'cele'
+    word: 'cele'
+    translated_word: 'objectives'
   36:
-    word: 'launch'
-    translated_word: 'uruchomić'
+    word: 'uruchomić'
+    translated_word: 'launch'
   37:
-    word: 'advice'
-    translated_word: 'Rada'
+    word: 'Rada'
+    translated_word: 'advice'
   38:
-    word: 'advise'
-    translated_word: 'doradzać'
+    word: 'doradzać'
+    translated_word: 'advise'
   39:
-    word: 'brings us'
-    translated_word: 'prowadzi nas'
+    word: 'prowadzi nas'
+    translated_word: 'brings us'
   40:
-    word: 'leak'
-    translated_word: 'nieszczelność'
+    word: 'nieszczelność'
+    translated_word: 'leak'
   41:
-    word: 'silence'
-    translated_word: 'cisza'
+    word: 'cisza'
+    translated_word: 'silence'
   42:
-    word: 'someone basically'
-    translated_word: 'w zasadzie ktoś'
+    word: 'w zasadzie ktoś'
+    translated_word: 'someone basically'
   43:
-    word: 'lack'
-    translated_word: 'brak'
+    word: 'brak'
+    translated_word: 'lack'
   44:
-    word: 'uninterrupted'
-    translated_word: 'nieprzerwany'
+    word: 'nieprzerwany'
+    translated_word: 'uninterrupted'
   45:
-    word: 'unit'
-    translated_word: 'jednostka'
+    word: 'jednostka'
+    translated_word: 'unit'
   46:
-    word: 'entitled'
-    translated_word: 'uprawniona'
+    word: 'uprawniona'
+    translated_word: 'entitled'
   47:
-    word: 'as well'
-    translated_word: 'także'
+    word: 'także'
+    translated_word: 'as well'
   48:
-    word: 'how to approach'
-    translated_word: 'jak podejść'
+    word: 'jak podejść'
+    translated_word: 'how to approach'
   49:
-    word: 'silent'
-    translated_word: 'cichy'
+    word: 'cichy'
+    translated_word: 'silent'
   50:
-    word: 'thanks for attending'
-    translated_word: 'dzięki za udział'
+    word: 'dzięki za udział'
+    translated_word: 'thanks for attending'
   51:
-    word: 'attend'
-    translated_word: 'brać udział w'
+    word: 'brać udział w'
+    translated_word: 'attend'
   52:
-    word: 'burden'
-    translated_word: 'obciążenie'
+    word: 'obciążenie'
+    translated_word: 'burden'
   53:
-    word: 'shine'
-    translated_word: 'blask'
+    word: 'blask'
+    translated_word: 'shine'
   54:
-    word: 'found out'
-    translated_word: 'dowiedziałem się'
+    word: 'dowiedziałem się'
+    translated_word: 'found out'
   55:
-    word: 'thoroughly'
-    translated_word: 'całkowicie'
+    word: 'całkowicie'
+    translated_word: 'thoroughly'
   56:
-    word: 'blessing to me'
-    translated_word: 'błogosławieństwo dla mnie'
+    word: 'błogosławieństwo dla mnie'
+    translated_word: 'blessing to me'
   57:
-    word: 'glue'
-    translated_word: 'klej'
+    word: 'klej'
+    translated_word: 'glue'
   58:
-    word: 'mess'
-    translated_word: 'bałagan'
+    word: 'bałagan'
+    translated_word: 'mess'
   59:
-    word: 'convince'
-    translated_word: 'przekonać'
+    word: 'przekonać'
+    translated_word: 'convince'
   60:
-    word: 'judge'
-    translated_word: 'sędzia'
+    word: 'sędzia'
+    translated_word: 'judge'
   61:
-    word: 'bloat'
-    translated_word: 'nadąć'
+    word: 'nadąć'
+    translated_word: 'bloat'
   62:
-    word: 'rarely'
-    translated_word: 'rzadko'
+    word: 'rzadko'
+    translated_word: 'rarely'
   63:
-    word: 'argue'
-    translated_word: 'kłócić się'
+    word: 'kłócić się'
+    translated_word: 'argue'
   64:
-    word: 'unify'
-    translated_word: 'ujednolicić'
+    word: 'ujednolicić'
+    translated_word: 'unify'
   65:
-    word: 'regarding to'
-    translated_word: 'w odniesieniu do'
+    word: 'w odniesieniu do'
+    translated_word: 'regarding to'
   66:
-    word: 'devided'
-    translated_word: 'podzielony'
+    word: 'podzielony'
+    translated_word: 'devided'
   67:
-    word: 'as for now'
-    translated_word: 'jak na razie'
+    word: 'jak na razie'
+    translated_word: 'as for now'
   68:
-    word: 'recreated'
-    translated_word: 'odtworzone'
+    word: 'odtworzone'
+    translated_word: 'recreated'
   69:
-    word: 'among to something'
-    translated_word: 'wśród czegoś'
+    word: 'wśród czegoś'
+    translated_word: 'among to something'
   70:
-    word: 'apart from'
-    translated_word: 'oprócz'
+    word: 'oprócz'
+    translated_word: 'apart from'
   71:
-    word: 'fortunately'
-    translated_word: 'na szczęście'
+    word: 'na szczęście'
+    translated_word: 'fortunately'
   72:
-    word: 'facilitate'
-    translated_word: 'ułatwiać'
+    word: 'ułatwiać'
+    translated_word: 'facilitate'
   73:
-    word: 'throwing'
-    translated_word: 'rzucanie'
+    word: 'rzucanie'
+    translated_word: 'throwing'
   74:
-    word: 'unusual'
-    translated_word: 'niezwykły'
+    word: 'niezwykły'
+    translated_word: 'unusual'
   75:
-    word: 'industry standard'
-    translated_word: 'Standard przemysłowy'
+    word: 'Standard przemysłowy'
+    translated_word: 'industry standard'
   76:
-    word: 'intended to work'
-    translated_word: 'przeznaczone do pracy'
+    word: 'przeznaczone do pracy'
+    translated_word: 'intended to work'
   77:
-    word: 'as intended'
-    translated_word: 'jak zamierzono'
+    word: 'jak zamierzono'
+    translated_word: 'as intended'
   78:
-    word: 'suppose'
-    translated_word: 'przypuszczać'
+    word: 'przypuszczać'
+    translated_word: 'suppose'
   79:
-    word: 'independent'
-    translated_word: 'niezależny'
+    word: 'niezależny'
+    translated_word: 'independent'
   80:
-    word: 'kinda'
-    translated_word: 'trochę'
+    word: 'trochę'
+    translated_word: 'kinda'
   81:
-    word: 'glad'
-    translated_word: 'zadowolony'
+    word: 'zadowolony'
+    translated_word: 'glad'
   82:
-    word: 'rectified'
-    translated_word: 'rektyfikowane'
+    word: 'rektyfikowane'
+    translated_word: 'rectified'
   83:
-    word: 'in terms of huge problems'
-    translated_word: 'pod względem ogromnych problemów'
+    word: 'pod względem ogromnych problemów'
+    translated_word: 'in terms of huge problems'
   84:
-    word: 'appreciate'
-    translated_word: 'doceniać'
+    word: 'doceniać'
+    translated_word: 'appreciate'
   85:
-    word: 'tweaks'
-    translated_word: 'poprawki'
+    word: 'poprawki'
+    translated_word: 'tweaks'
   86:
-    word: 'decent shape'
-    translated_word: 'przyzwoity kształt'
+    word: 'przyzwoity kształt'
+    translated_word: 'decent shape'
   87:
-    word: 'appropriate'
-    translated_word: 'właściwy'
+    word: 'właściwy'
+    translated_word: 'appropriate'
   88:
-    word: 'in plain'
-    translated_word: 'w prosty sposób'
+    word: 'w prosty sposób'
+    translated_word: 'in plain'
   89:
-    word: 'expansion'
-    translated_word: 'ekspansja'
+    word: 'ekspansja'
+    translated_word: 'expansion'
   90:
-    word: 'complexity'
-    translated_word: 'złożoność'
+    word: 'złożoność'
+    translated_word: 'complexity'
   91:
-    word: 'revealed'
-    translated_word: 'ujawnił'
+    word: 'ujawnił'
+    translated_word: 'revealed'
   92:
-    word: 'Concern'
-    translated_word: 'Sprawa'
+    word: 'Sprawa'
+    translated_word: 'Concern'
   93:
-    word: 'settlement'
-    translated_word: 'osada'
+    word: 'osada'
+    translated_word: 'settlement'
   94:
-    word: 'commission'
-    translated_word: 'komisja'
+    word: 'komisja'
+    translated_word: 'commission'
   95:
-    word: 'allocate'
-    translated_word: 'przeznaczyć'
+    word: 'przeznaczyć'
+    translated_word: 'allocate'
   96:
-    word: 'immediately'
-    translated_word: 'natychmiast'
+    word: 'natychmiast'
+    translated_word: 'immediately'
   97:
-    word: 'hold'
-    translated_word: 'trzymać'
+    word: 'trzymać'
+    translated_word: 'hold'
   98:
-    word: 'keep'
-    translated_word: 'trzymać'
+    word: 'trzymać'
+    translated_word: 'keep'
   99:
-    word: 'competitor'
-    translated_word: 'konkurent'
+    word: 'konkurent'
+    translated_word: 'competitor'
   100:
-    word: 'basis'
-    translated_word: 'podstawa'
+    word: 'podstawa'
+    translated_word: 'basis'
   101:
-    word: 'licensor'
-    translated_word: 'licencjodawca'
+    word: 'licencjodawca'
+    translated_word: 'licensor'
   102:
-    word: 'licensee'
-    translated_word: 'właściciel'
+    word: 'właściciel'
+    translated_word: 'licensee'
   103:
-    word: 'grant'
-    translated_word: 'dotacja'
+    word: 'dotacja'
+    translated_word: 'grant'
   104:
-    word: 'affect'
-    translated_word: 'oddziaływać'
+    word: 'oddziaływać'
+    translated_word: 'affect'
   105:
-    word: 'do we care about'
-    translated_word: 'na czym nam zależy'
+    word: 'na czym nam zależy'
+    translated_word: 'do we care about'
   106:
-    word: 'ledger'
-    translated_word: 'księga główna'
+    word: 'księga główna'
+    translated_word: 'ledger'
   107:
-    word: 'picked up'
-    translated_word: 'odebrany'
+    word: 'odebrany'
+    translated_word: 'picked up'
   108:
-    word: 'accumulation'
-    translated_word: 'akumulacja'
+    word: 'akumulacja'
+    translated_word: 'accumulation'
   109:
-    word: 'clarify'
-    translated_word: 'wyjaśniać'
+    word: 'wyjaśniać'
+    translated_word: 'clarify'
   110:
-    word: 'settle'
-    translated_word: 'rozstrzygać'
+    word: 'rozstrzygać'
+    translated_word: 'settle'
   111:
-    word: 'rid of it'
-    translated_word: 'pozbyć się tego'
+    word: 'pozbyć się tego'
+    translated_word: 'rid of it'
   112:
-    word: 'go forward'
-    translated_word: 'idź naprzód'
+    word: 'idź naprzód'
+    translated_word: 'go forward'
   113:
-    word: 'granting access'
-    translated_word: 'udzielanie dostępu'
+    word: 'udzielanie dostępu'
+    translated_word: 'granting access'
   114:
-    word: 'turn out'
-    translated_word: 'okazać się'
+    word: 'okazać się'
+    translated_word: 'turn out'
   115:
-    word: 'exact'
-    translated_word: 'dokładny'
+    word: 'dokładny'
+    translated_word: 'exact'
   116:
-    word: 'entire'
-    translated_word: 'Cały'
+    word: 'Cały'
+    translated_word: 'entire'
   117:
-    word: 'mitigate'
-    translated_word: 'złagodzić'
+    word: 'złagodzić'
+    translated_word: 'mitigate'
   118:
-    word: 'charge'
-    translated_word: 'opłata'
+    word: 'opłata'
+    translated_word: 'charge'
   119:
-    word: 'behave'
-    translated_word: 'zachowywać się'
+    word: 'zachowywać się'
+    translated_word: 'behave'
   120:
-    word: 'immediately'
-    translated_word: 'natychmiast'
+    word: 'natychmiast'
+    translated_word: 'immediately'
   121:
-    word: 'pronounce'
-    translated_word: 'wymawiać'
+    word: 'wymawiać'
+    translated_word: 'pronounce'
   122:
-    word: 'overwhelmed'
-    translated_word: 'przytłoczony'
+    word: 'przytłoczony'
+    translated_word: 'overwhelmed'
   123:
-    word: 'leverage'
-    translated_word: 'przewaga'
+    word: 'przewaga'
+    translated_word: 'leverage'
   124:
-    word: 'reconcicle'
-    translated_word: 'pogodzić'
+    word: 'pogodzić'
+    translated_word: 'reconcicle'
   125:
-    word: 'rectangle'
-    translated_word: 'prostokąt'
+    word: 'prostokąt'
+    translated_word: 'rectangle'
   126:
-    word: 'overlay'
-    translated_word: 'narzuta'
+    word: 'narzuta'
+    translated_word: 'overlay'
   127:
-    word: 'crucial part'
-    translated_word: 'kluczowa część'
+    word: 'kluczowa część'
+    translated_word: 'crucial part'
   128:
-    word: 'foresee'
-    translated_word: 'przewidywać'
+    word: 'przewidywać'
+    translated_word: 'foresee'
   129:
-    word: 'itself'
-    translated_word: 'samo'
+    word: 'samo'
+    translated_word: 'itself'
   130:
-    word: 'utilize'
-    translated_word: 'spożytkować'
+    word: 'spożytkować'
+    translated_word: 'utilize'
   131:
-    word: 'reason'
-    translated_word: 'powód'
+    word: 'powód'
+    translated_word: 'reason'
   132:
-    word: 'reasonable'
-    translated_word: 'rozsądny'
+    word: 'rozsądny'
+    translated_word: 'reasonable'
   133:
-    word: 'simply'
-    translated_word: 'po prostu'
+    word: 'po prostu'
+    translated_word: 'simply'
   134:
-    word: 'beside'
-    translated_word: 'oprócz'
+    word: 'oprócz'
+    translated_word: 'beside'
   135:
-    word: 'though'
-    translated_word: 'chociaż'
+    word: 'chociaż'
+    translated_word: 'though'
+136:
+  word: 'jeżeli chodzi o'
+  translated_word: 'regarding to'
+137:
+  word: 'wkurzać'
+  translated_word: 'pissing off'
+138:
+  word: 'rozwiązać'
+  translated_word: 'figure it out'
+139:
+  word: 'oddzielny'
+  translated_word: 'discrete'
+140:
+  word: 'zdenerwowany'
+  translated_word: 'upset'
+141:
+  word: 'pod względem'
+  translated_word: 'in terms of'
+142:
+  word: 'wąski'
+  translated_word: 'narrow'
+143:
+  word: 'zaniepokojony'
+  translated_word: 'concerned'
+144:
+  word: 'trochę dziwne'
+  translated_word: 'quite strange'
+145:
+  word: 'przestrzeń do oddychania'
+  translated_word: 'breathing space'
+146:
+  word: 'ewoluował'
+  translated_word: 'evolved'
+147:
+  word: 'inspiruje'
+  translated_word: 'inspires'
+148:
+  word: 'być może'
+  translated_word: 'perhaps'
+149:
+  word: 'pozbyć się'
+  translated_word: 'get rid of'
+150:
+  word: 'dosyć szybko'
+  translated_word: 'quite fast'
+151:
+  word: 'doceniać'
+  translated_word: 'appreciate'
+152:
+  word: 'rozbieżności'
+  translated_word: 'discrepancies'
+153:
+  word: 'gładki'
+  translated_word: 'smooth'
