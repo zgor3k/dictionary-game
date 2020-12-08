@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ApplicationHelper
   def result_row_classes(result)
     if result.positives > result.negatives

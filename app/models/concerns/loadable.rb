@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Loadable
   extend ActiveSupport::Concern
 
@@ -6,7 +8,7 @@ module Loadable
       time_now = Time.zone.now
 
       where(created_at: nil)
-        &.update_all(created_at: time_now, updated_at: time_now)
+        &.update_all(created_at: time_now, updated_at: time_now) # rubocop:disable Rails/SkipsModelValidations
     end
   end
 end

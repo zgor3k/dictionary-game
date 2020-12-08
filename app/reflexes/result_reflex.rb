@@ -12,16 +12,15 @@ class ResultReflex < ApplicationReflex
     word_object = Word.find_by(id: result[:word_id])
 
     if check_result(result, word_object)
-      word_object.result.positives =+ 1
+      word_object.result.positives = + 1
     else
-      word_object.result.negatives =+ 1
+      word_object.result.negatives = + 1
     end
 
     word_object.result.save
   end
 
   def check_result(result, word_object)
-    result[:translate].downcase ==
-      word_object.public_send(result[:strategy]).downcase
+    result[:translate].casecmp(word_object.public_send(result[:strategy])).zero?
   end
 end

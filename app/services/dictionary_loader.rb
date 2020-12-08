@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 class DictionaryLoader
-  FILE = Rails.root.join('config', 'dictionary.yml').freeze
+  FILE = Rails.root.join('config/dictionary.yml').freeze
 
   class << self
     def call
-      Word.upsert_all(dictionary.values, unique_by: 'index_words_on_word')
+      Word.upsert_all(dictionary.values, unique_by: 'index_words_on_word') # rubocop:disable Rails/SkipsModelValidations
       Word.create_results!
       update_timestamps!
     end
@@ -11,7 +13,7 @@ class DictionaryLoader
     private
 
     def load_file
-      @load_file = YAML.load File.open(FILE)
+      @load_file = YAML.safe_load File.open(FILE)
     end
 
     def dictionary

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Word < ApplicationRecord
   include Loadable
 
@@ -7,7 +9,7 @@ class Word < ApplicationRecord
     def create_results!
       return true if word_ids_for_results.blank?
 
-      Result.upsert_all(word_ids_for_results, unique_by: 'index_results_on_word_id')
+      Result.upsert_all(word_ids_for_results, unique_by: 'index_results_on_word_id') # rubocop:disable Rails/SkipsModelValidations
     end
 
     private

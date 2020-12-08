@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ResultHelper
   def random_word
     word = Result.by_negatives.first(10).sample.word
