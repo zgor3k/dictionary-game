@@ -2,7 +2,7 @@
 
 module ResultHelper
   def random_word
-    word = Result.by_negatives.first(10).sample.word
+    word = Result.by_count.first(10).sample.word
     strategy = translate_strategy
 
     {
