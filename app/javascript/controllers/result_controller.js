@@ -13,6 +13,12 @@ export default class extends Controller {
       'translate': this.translateTarget.value,
       'word_id': this.wordidTarget.value,
       'strategy': this.strategyTarget.value
-    })
+    });
+  }
+
+  next() {
+    this.stimulate('ResultReflex#next', {
+      'word_id': this.wordidTarget.value,
+    });
   }
 }
