@@ -3,10 +3,7 @@ class Result < ApplicationRecord
 
   belongs_to :word
 
-  scope :by_count, -> (order_by) {
-    select('*, coalesce(negatives, positives) as count')
-      .order("count #{order_by}")
-  }
+  scope :by_negatives, -> { order({ negatives: :desc }, 'negatives + positives desc') }
 
   def count
     negatives + positives
