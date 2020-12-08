@@ -24,12 +24,21 @@ class ResultReflex < ApplicationReflex
     end
 
     word_object.result.save
-    @result_from_reflex = { result: (check_result || false), word: word_object }
+    result_from_reflex(check_result: check_result, word_object: word_object,
+                       result: result)
   end
 
   def check_result(result, word_object)
     result[:translate].casecmp(
       word_object.public_send(result[:strategy])
     ).zero?
+  end
+
+  def result_from_reflex(check_result:, word_object:, result:)
+    @result_from_reflex = {
+      result: (check_result || false),
+      word_object: word_object,
+      passed_word: result[:translate]
+    }
   end
 end

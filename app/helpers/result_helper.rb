@@ -7,7 +7,7 @@ module ResultHelper
 
     {
       word_id: word.id,
-      word_to_translate: word_to_translate(word, strategy),
+      word_to_translate: word_to_translate(word, strategy).downcase,
       strategy: strategy
     }
   end
@@ -18,12 +18,22 @@ module ResultHelper
     if result[:result]
       tag.p 'Good! ;-)', class: 'text-green-900'
     else
-      content = ";-( tip: <br> #{result[:word].word} = #{result[:word].translated_word}"
-      tag.p content.html_safe, class: 'text-red-900 text-center' # rubocop:disable Rails/OutputSafety
+      tag.p content_for_false(result), class: 'text-red-900 text-center'
     end
   end
 
   private
+
+  def content_for_false(result)
+    content = []
+    if result[:passed_word]
+      content << "It's not `#{result[:passed_word]}` ;-("
+      content << '<br>'.html_safe
+    end
+    content << "#{result[:word_object].word} = #{result[:word_object].translated_word}"
+
+    safe_join(content)
+  end
 
   def translate_strategy
     %i[word translated_word].sample
